@@ -1,0 +1,151 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar {
+  padding: 10px;
+  background-color: #007bff;
+  text-align: center;
+}
+
+.navbar input {
+  width: 80%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.read-more,
+.delete-btn,
+.back-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more:hover,
+.delete-btn:hover,
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  margin-left: 10px;
+}
+/* Post Details Page */
+.post-details {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Post Title */
+.post-details h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Post Body */
+.post-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Edit Form */
+.post-details input[type="text"],
+.post-details textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.post-details input[type="text"]:focus,
+.post-details textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Textarea */
+.post-details textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Buttons */
+.post-details button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post-details button:hover {
+  background-color: #0056b3;
+}
+
+.post-details .back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #6c757d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.post-details .back-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .post-details {
+    padding: 15px;
+  }
+
+  .post-details h2 {
+    font-size: 20px;
+  }
+
+  .post-details p {
+    font-size: 14px;
+  }
+
+  .post-details button,
+  .post-details .back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
